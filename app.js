@@ -16,7 +16,7 @@ var routes = require('./routes/index');
 var userRoutes = require('./routes/user');
 var app = express();
 
-mongoose.connect('mongodb://localhost:27017/shop',(err)=>{
+mongoose.connect('mongodb://abhi3:abcde@ds137957.mlab.com:37957/shopabhi',(err)=>{
 
 if(err){throw err;}
 else{console.log('shop');}
