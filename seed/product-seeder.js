@@ -1,12 +1,12 @@
 var Product=require('../models/products');
 var mongoose=require('mongoose');
-/*open product-seeder and run node product-seeder.js after removing comments
-mongoose.connect('mongodb://localhost:27017/shop1',(err)=>{
+//open product-seeder and run node product-seeder.js after removing comments
+mongoose.connect('mongodb://abhi3:abcde@ds137957.mlab.com:37957/shopabhi',(err)=>{
 
 if(err)throw err;
 else{console.log('shop');}
 });
-*/
+
 var products=[
 
 new Product({
